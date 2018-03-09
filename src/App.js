@@ -7,11 +7,12 @@ import Movie from './Components/Movie';
 const movies = [
   {
     id: 1,
-    title: "Indiana Jones"
+    title: "Indiana Jones",
+    desc: "Harrison Ford tears up"
   },
   {
     id: 2,
-    title: "Bill & Ted's Excellent Adventure"
+    title: "Bill & Ted's Excellent Adventure",
   }
 ];
 
@@ -25,7 +26,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         {movies.map((movie) => (
-          <Movie key={movie.id} movie={movie}/>
+          <Movie key={movie.id} movie={movie} desc={movie.desc}/>
         ))}
       </div>
     );
