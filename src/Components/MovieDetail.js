@@ -48,7 +48,7 @@ const MovieWrapper = styled.div`
 `;
 
 const MovieInfo = styled.div`
-    background: #F3F0F7;
+    background: white;
     text-align: left;
     padding: 2rem 10%;
     display: flex;

@@ -2,5 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #343434;
+  /* IE10+ */ 
+  background-image: -ms-linear-gradient(bottom, #4922B9 0%, #28A5DB 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(bottom, #4922B9 0%, #28A5DB 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(bottom, #4922B9 0%, #28A5DB 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4922B9), color-stop(100, #28A5DB));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(bottom, #4922B9 0%, #28A5DB 100%);
+
+  /* W3C Markup */ 
+  background-image: linear-gradient(to top, #4922B9 0%, #28A5DB 100%);
 }
