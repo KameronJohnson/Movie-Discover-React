@@ -2,12 +2,12 @@
   text-align: center; }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+  margin-top: 1rem; }
 
 .App-header {
-  background-color: transparent;
-  height: 150px;
+  background-image: url("./images/movie.jpeg");
+  background-size: cover;
+  height: 200px;
   padding: 20px;
   color: white; }
 

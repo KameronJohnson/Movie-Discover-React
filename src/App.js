@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-
-import logo from './logo.svg';
+import logo from './images/new-release.png';
 import './App.css';
 import MoviesList from './Components/MoviesList';
 import MovieDetail from './Components/MovieDetail';
@@ -13,7 +12,6 @@ const App = () => (
         <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
-        <h1 className="App-title">Welcome to React</h1>
       </header>
       <Switch>
         <Route exact path="/" component={MoviesList} />
