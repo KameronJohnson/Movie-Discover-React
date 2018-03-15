@@ -2,7 +2,8 @@
   text-align: center; }
 
 .App-logo {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  cursor: url(https://s3-us-west-2.amazonaws.com/kameronjohnson/movie-icon.png), auto; }
 
 .App-header {
   background-image: url("./images/movie.jpeg");
@@ -16,9 +17,3 @@
 
 .App-intro {
   font-size: 1em; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
